@@ -5,3 +5,7 @@ publish:
 	git add .
 	git commit -m "automatic git update from Makefile"
 	git push
+
+
+build-library:
+	(cd 1pixLib; make)
